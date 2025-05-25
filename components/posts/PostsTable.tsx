@@ -33,7 +33,9 @@ const PostsTable = ({ limit, title }: PostTableProps) => {
         <TableHeader>
           <TableRow>
             <TableHead>Title</TableHead>
-            <TableHead className='hidden md:table-cell'>Author</TableHead>
+            <TableHead className='hidden md:table-cell text-right'>
+              Author
+            </TableHead>
             <TableHead className='hidden md:table-cell text-right'>
               Date
             </TableHead>
